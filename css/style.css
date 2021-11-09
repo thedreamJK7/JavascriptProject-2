@@ -25,14 +25,13 @@ h1 {
     left: 0;
     right: 0;
     bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    visibility: hidden;
 }
 
-.img  {
-    margin: 10px 30%;
+.image  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .img img {
